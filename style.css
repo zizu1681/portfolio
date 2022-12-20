@@ -1,0 +1,48 @@
+body{
+    margin: auto 0;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   width: 100%;
+   background-color: black;
+}
+.list{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   width: 100%;
+   justify-items: flex-start;
+  
+}
+li a{
+    list-style: none;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+}
+.push{
+    margin-left: auto;
+}
+li a :hover{
+    cursor: pointer;
+}
+.cover{
+    display: grid;
+    background-color: grey;
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    align-items: center;
+    justify-items: center;
+}
+.content{
+    display:grid;
+}
